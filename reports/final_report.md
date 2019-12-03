@@ -101,14 +101,14 @@ into a business/human/academic context.
 * Recall = $\frac{TP}{TP+FN} = 0/18 = 0$.  
 * F1-Score = $2\frac{(P\cdot R)}{(P+R)}$ = N/A, because Precision cannot be calculated.
 
-**Logistic Regression**
+**LOGISTIC REGRESSION RESULTS**
 
 Metric|Mean|St Dev
 ---|---|---
-Average Precision|0.36|0.2
-Precision|0.69|0.24
+Average Precision|0.35|0.2
+Precision|0.64|0.18
 Recall|0.5|0.2
-F1|0.55|0.18
+F1|0.54|0.18
 
 Best hyperparameters: `C` $= 1.0$
 
@@ -179,6 +179,10 @@ https://www.kaggle.com/phunter/xgboost-with-gridsearchcv
 https://www.kaggle.com/tilii7/hyperparameter-grid-search-with-xgboost  
 https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/  
 https://blog.cambridgespark.com/hyperparameter-tuning-in-xgboost-4ff9100a3b2f
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_multi_metric_evaluation.html
+https://github.com/scikit-learn/scikit-learn/issues/2774
+https://oscar.go.com/nominees/best-picture
 
-
-
+https://machinelearningmastery.com/feature-importance-and-feature-selection-with-xgboost-in-python/
+https://www.datacamp.com/community/tutorials/xgboost-in-python
+https://towardsdatascience.com/be-careful-when-interpreting-your-features-importance-in-xgboost-6e16132588e7
