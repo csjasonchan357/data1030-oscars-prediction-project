@@ -85,7 +85,7 @@ TOTAL MISSING|0.12874493927125505
     * Average Precision (Area Under PR-Curve, 1 is best classifier, 0 is worst)
     * F1 (weighted harmonic mean of Precision and Recall)
 * Uncertainties from splitting and non-deterministic methods measured by performing multiple iterations of each gridsearch pipeline, averaging metrics over iterations and finding the standard deviation of metrics. 
-    
+
 
 ### Results
 Discuss how your scores compare to a baseline model (in classification: what is the score if your
@@ -147,8 +147,17 @@ F1|0.59|0.12
 Best hyperparameters: `colsample_bytree` $= 1.0$, `max_depth` $= 2$, `min_child_weight` $=2$, `learning_rate` $=0.01$, `subsample` $=1.0$.
 
 
-**Global and Local Feature Importances**
-**Translationn of Results* 
+**Feature Importances**
+
+<img src="data1030-oscars-prediction-project/figures/feat_imp_gain.png">
+
+![]('data1030-oscars-prediction-project/figures/feat_imp_gain.png')
+
+|![]('/home/jovyan/data1030/data1030-oscars-prediction-project/results/feat_imp_weight')|
+|---|
+|caption here|
+
+**Translation of Results* 
 ** Real Life Testing on 2019 data**
 
 ### Outlook
